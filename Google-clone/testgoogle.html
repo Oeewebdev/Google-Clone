@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Googleclone</title>
+    <style type="text/css">
+      /*body{
+      }*/
+      .header {
+        display: flex;
+        justify-content: right;
+        margin: 10px;
+        padding: 10px;
+      }
+      .header nav a{
+        text-decoration: none;
+      }
+      .header button {
+        background-color: blue;
+        color: white;
+      }
+
+      nav a{
+        justify-content: space-between;
+        padding:12px;
+      }
+      a {
+        color: black;
+        list-style: none;
+      }
+      .logo {
+        display: grid;
+        justify-content: center;
+      }
+      img {
+        width: 372px;
+      }
+      form img {
+        width: 15px;
+      }
+      form .mic{
+        width: 29px;
+        position: absolute;
+      }
+      form .cam{
+        position: relative;
+        width: 20px;
+        left:35px;
+        top: 2px;
+      }
+      .form {
+        display: grid;
+        justify-content: center;
+      }
+      form input {
+        width: 450px;
+        height: 28px;
+        border: solid 1px;
+        border-radius: 15px;
+      }
+
+       button{
+        justify-content: space-between;
+        
+
+      }
+      .button {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        position: relative;
+        top: 50px;
+      }
+      .btn1{
+        margin-left: 40%;
+      }
+      .btn2{
+        margin-right: 40%;
+      }
+
+      footer{
+        background-color: rgb(219, 209, 209);
+        margin-top: 190px;
+        height: 120px;
+        padding: 10px;
+        font-family: sans-serif;
+        flex-wrap: wrap;
+
+      }
+ 
+      .nav{
+        display: flex;
+        justify-content: space-between;
+      }
+      .nav_left a{
+        padding-right: 12px;
+      }
+      .nav_right a{
+        padding: 12px;
+      }
+
+      footer .nav a{
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <button>Sign in</button>
+      </nav>
+    </div>
+
+    <div class="main">
+      <div class="logo">
+        <img src="image/google.jpg" alt="logo" />
+      </div>
+
+      <div class="form">
+        <form action="#" method="get">
+          <img class="src_i" src="image/icon shearch.png" alt="" />
+          <input class="bar" type="search" placeholder="google shearch" />
+          <img class="mic" src="image/Google_Icons-25-512.webp" alt="mic_icon" title="Utiliser la recherche vocale">
+          <img class="cam" src="image/cam.png" alt="cam_icon" title="Recherche par image">
+        </form>
+      </div>
+
+      <div class="button">
+        <button class="btn1">Recherche google</button>
+        <button class="btn2">J'ai de la chance</button>
+      </div>
+      
+    </div>
+
+    <footer>
+      <p>Burkina Faso</p>
+      <hr><br>
+      <div class="nav">
+      <div class="nav_left">
+        <a href="#">A propos</a>
+        <a href="#">Publicité</a>
+        <a href="#">Entreprise</a>
+        <a href="#">Comment fonctionne la recherche google ?</a>
+      </div>
+      <div class="nav_right">
+        <a href="#">Confidentialité</a>
+        <a href="#">Conditions</a>
+        <a href="#">Paramètre</a>
+
+      </div>
+      </div>
+      
+    </footer>
+  </body>
+</html>
